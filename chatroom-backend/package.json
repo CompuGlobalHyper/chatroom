@@ -1,0 +1,41 @@
+{
+  "name": "chatroom-backend",
+  "version": "1.0.0",
+  "description": "A chatroom backend server",
+  "homepage": "https://github.com/CompuGlobalHyper/chatroom#readme",
+  "bugs": {
+    "url": "https://github.com/CompuGlobalHyper/chatroom/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CompuGlobalHyper/chatroom.git"
+  },
+  "license": "ISC",
+  "author": "phin",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.106.1",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.18.1",
+    "multer": "^2.1.1",
+    "pg": "^8.21.0",
+    "prisma": "^7.8.0"
+  },
+  "devDependencies": {
+    "jest": "^30.4.0",
+    "supertest": "^7.2.2"
+  }
+}
